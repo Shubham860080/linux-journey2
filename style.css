@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
+.header{
+   background-color: #2C3E50; 
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 7.5vw;
+   height: 8vh;
+   font-size: 18px;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   position: fixed;
+   width: 100%;
+}
+.hero-section{
+    background-color:  #18BC9C;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6vh;
+    padding-top: 25px;
+}
+.para{
+    color: white;
+    font-size: 48px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.head{
+    color: #999;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F7F7F7;
+    font-size: 14px;
+    line-height: 1.428571429;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.input{
+    background-color: #F7F7F7;
+    height: 3em !important;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#email{
+     background-color: #fff;
+     border: 1px solid #ABB0B2;
+     text-align: start;
+     padding-left: 4px;
+     width: 25vw;
+     height: 35px;
+
+}
+#submit{
+    background-color: #18BC9C;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    height: 35px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color:#418477;}
+.line{
+   padding: 20px 100px;
+   background-color: #F7F7F7;
+    color:  #eeeeee;
+}
+h2{
+    background-color: #F7F7F7;
+    text-align: center;
+    color: #999;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 20px 25px;
+    font-size: 32px;
+}
+.card-contener{
+    display: flex;
+    padding: 4vh 8vw;
+    gap: 12px;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+}
+
+.card{
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 25px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    text-align: center;
+    background-color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 2px solid #f7f7f7;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #333333;
+line-height: 1.428571429;;
+}
+.card:hover{
+    background-color:#18bc9c;
+}
+.card img{
+    border-radius: 50%;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #2C3E50;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    color: #E6E7E8;
+    padding: 30px 10vw;   
+    background-color: #2C3E50;
+    gap: 30px;
+}
+.end{
+ text-align:center;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+padding: 0 10px;
+line-height: 1.3;
+}
+h5{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: inherit;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color:#428bca;
+    cursor: pointer;
+    
+}
+.last{
+    background-color: #F7F7F7;
+}
